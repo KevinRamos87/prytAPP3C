@@ -78,8 +78,7 @@ namespace pryAPP3C.MaquinaExpendedora
         {
             if (productoSeleccionado != null)
             {
-                float total =
-                    productoSeleccionado.Precio * (int)numcantidad.Value;
+                float total = productoSeleccionado.Precio * (int)numcantidad.Value;
 
                 lblSubtotal.Text = "$" + total;
             }
@@ -97,7 +96,7 @@ namespace pryAPP3C.MaquinaExpendedora
 
             if (productoSeleccionado.Stock < cantidad)
             {
-                MessageBox.Show("Existencias insuficientes");
+                MessageBox.Show("Error: Existencias insuficientes");
                 return;
             }
 
@@ -126,9 +125,7 @@ namespace pryAPP3C.MaquinaExpendedora
                 return;
             }
 
-            MessageBox.Show(
-                "Compra realizada\n\nTotal pagado: $" +
-                totalGeneral);
+            MessageBox.Show("Compra realizada\n\nTotal pagado: $" + totalGeneral);
 
             lbsTicket.Items.Clear();
 
