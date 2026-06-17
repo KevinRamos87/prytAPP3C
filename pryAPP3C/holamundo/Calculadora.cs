@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryAPP3C.holamundo
 {
-    public partial class Calculadora : Form
+    public partial class frmCalculadora : Form
     {
-        public Calculadora()
+        public frmCalculadora()
         {
             InitializeComponent();
         }

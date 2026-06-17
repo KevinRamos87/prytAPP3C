@@ -1,6 +1,6 @@
 ﻿namespace pryAPP3C.holamundo
 {
-    partial class Calculadora
+    partial class frmCalculadora
     {
         /// <summary>
         /// Required designer variable.
@@ -139,7 +139,7 @@
             this.txt_valor2.Size = new System.Drawing.Size(249, 20);
             this.txt_valor2.TabIndex = 6;
             // 
-            // Calculadora
+            // frmCalculadora
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,7 +150,7 @@
             this.ForeColor = System.Drawing.SystemColors.InfoText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.Name = "Calculadora";
+            this.Name = "frmCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Calculadora_Load);

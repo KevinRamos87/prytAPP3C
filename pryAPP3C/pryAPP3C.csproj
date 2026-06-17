@@ -68,6 +68,19 @@
     <Compile Include="holamundo\Calculadora.Designer.cs">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="login\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaquinaExpendedora\Maquinaexpendedora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaquinaExpendedora\Maquinaexpendedora.Designer.cs">
+      <DependentUpon>Maquinaexpendedora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaquinaExpendedora\producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cafeteria\FormCafeteria.resx">
@@ -79,6 +92,12 @@
     <EmbeddedResource Include="holamundo\Calculadora.resx">
       <DependentUpon>Calculadora.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="login\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaquinaExpendedora\Maquinaexpendedora.resx">
+      <DependentUpon>Maquinaexpendedora.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,8 +106,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="cafeteria\Descripción de la Clase Bebida alcoholica.pdf" />
+    <None Include="MaquinaExpendedora\Maquinaexpendedora.pdf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,6 +123,26 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHETOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAELLTAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COCA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHICLES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carritos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

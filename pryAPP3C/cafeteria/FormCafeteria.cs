@@ -15,10 +15,10 @@ using System.Drawing.Text;
 
 namespace pryAPP3C.cafeteria
 {
-    public partial class FormCafeteria : Form
+    public partial class FrmCafeteria : Form
     {
         private List<Bebida> bebidas;
-        public FormCafeteria()
+        public FrmCafeteria()
         {
             InitializeComponent();
             bebidas = new List<Bebida>();

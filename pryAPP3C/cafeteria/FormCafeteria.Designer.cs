@@ -1,6 +1,6 @@
 ﻿namespace pryAPP3C.cafeteria
 {
-    partial class FormCafeteria
+    partial class FrmCafeteria
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.chkGluten = new System.Windows.Forms.CheckBox();
             this.rdb_alcoholica = new System.Windows.Forms.RadioButton();
             this.btn_agregar = new System.Windows.Forms.Button();
             this.txt_extra = new System.Windows.Forms.TextBox();
@@ -46,7 +47,6 @@
             this.lsbLista = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbl_descripcion = new System.Windows.Forms.Label();
-            this.chkGluten = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -77,6 +77,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "    🥛 CAPTURA DE BEBIDAS";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // chkGluten
+            // 
+            this.chkGluten.AutoSize = true;
+            this.chkGluten.Location = new System.Drawing.Point(240, 362);
+            this.chkGluten.Name = "chkGluten";
+            this.chkGluten.Size = new System.Drawing.Size(123, 30);
+            this.chkGluten.TabIndex = 12;
+            this.chkGluten.TabStop = false;
+            this.chkGluten.Text = "Gluten";
+            this.chkGluten.UseVisualStyleBackColor = true;
+            this.chkGluten.Visible = false;
             // 
             // rdb_alcoholica
             // 
@@ -266,31 +278,19 @@
             this.lbl_descripcion.Size = new System.Drawing.Size(0, 17);
             this.lbl_descripcion.TabIndex = 0;
             // 
-            // chkGluten
-            // 
-            this.chkGluten.AutoSize = true;
-            this.chkGluten.Location = new System.Drawing.Point(240, 362);
-            this.chkGluten.Name = "chkGluten";
-            this.chkGluten.Size = new System.Drawing.Size(123, 30);
-            this.chkGluten.TabIndex = 12;
-            this.chkGluten.TabStop = false;
-            this.chkGluten.Text = "Gluten";
-            this.chkGluten.UseVisualStyleBackColor = true;
-            this.chkGluten.Visible = false;
-            // 
-            // FormCafeteria
+            // FrmCafeteria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
-            this.ClientSize = new System.Drawing.Size(878, 527);
+            this.ClientSize = new System.Drawing.Size(878, 511);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "FormCafeteria";
+            this.Name = "FrmCafeteria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCafeteria";
             this.Load += new System.EventHandler(this.FormCafeteria_Load);
