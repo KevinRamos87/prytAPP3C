@@ -79,8 +79,7 @@ namespace pryAPP3C.MaquinaExpendedora
             if (productoSeleccionado != null)
             {
                 float total =
-                    productoSeleccionado.Precio *
-                    (int)numcantidad.Value;
+                    productoSeleccionado.Precio * (int)numcantidad.Value;
 
                 lblSubtotal.Text = "$" + total;
             }
